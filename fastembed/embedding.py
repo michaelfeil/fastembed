@@ -221,6 +221,12 @@ class Embedding(ABC):
                 "size_in_GB": 0.09
             },
             {
+                "model": "sentence-transformers/all-mpnet-base-v2",
+                "dim": 768,
+                "description": "Sentence Transformer model, mpnet-base-v2. NON QUANTIZED",
+                "size_in_GB": 0.5
+            },
+            {
                 "model": "intfloat/multilingual-e5-large",
                 "dim": 1024,
                 "description": "Multilingual model, e5-large. Recommend using this model for non-English languages",
